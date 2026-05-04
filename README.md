@@ -23,7 +23,7 @@ Hi, I'm **Ori Hatuka** — transitioning into offensive security after **7+ year
 | 🐧 Linux Privilege Escalation Machines | 5 |
 | 🪟 Windows Privilege Escalation Machines | 5 |
 | 🏗️ Infrastructure Machines (Linux + Windows) | 10 |
-| 🌐 Web Application Engagements | ✓ |
+| 🌐 Web Application Engagements | 5 |
 | 🚩 CTF Challenges | 1 |
 | **Total Documented Engagements** | **20+** |
 
