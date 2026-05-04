@@ -1,2 +1,34 @@
-# Penetration-Testing-Portfolio
-🔐 Penetration testing writeups, lab reports, and security tooling. HackTheBox, VulnHub, and ITSafe practical engagements.
+# 🔐 Penetration Testing Portfolio
+
+> Documenting my hands-on journey into offensive security — from network defender to ethical attacker.
+
+---
+
+## 👋 About Me
+
+Hi, I'm **Ori Hatuka** — transitioning into offensive security after **7+ years of hands-on IT experience**.
+
+- 🛡️ **Network Administrator** at Bank Leumi (1.5 years) — managed Active Directory, Exchange, and Cisco infrastructure for **2,000+ users**
+- 🔬 **QA Engineer** at Intel (3.5 years) — built Python automation and analyzed network protocols (DHCP, DNS, TCP/IP)
+- 🎓 **ITSafe Pentest Pro graduate** — full-stack curriculum in Web, Mobile, AD, and Infrastructure pentesting
+
+> **My unfair advantage:** I came from building and defending the same systems I now learn to test.
+
+---
+
+## 📊 Portfolio Stats
+
+| Category | Count |
+|----------|-------|
+| 🐧 Linux Privilege Escalation Machines | 5 |
+| 🪟 Windows Privilege Escalation Machines | 5 |
+| 🏗️ Infrastructure Machines (Linux + Windows) | 10 |
+| 🌐 Web Application Engagements | ✓ |
+| 🚩 CTF Challenges | 1 |
+| **Total Documented Engagements** | **20+** |
+
+---
+
+## 📂 Repository Structure
+
+```
