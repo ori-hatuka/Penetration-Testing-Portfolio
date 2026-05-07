@@ -1,7 +1,14 @@
-
 # 🌐 Web Application Pentesting
 
-Comprehensive Web Application penetration testing engagement covering OWASP Top 10 and beyond.
+Comprehensive Web Application penetration testing engagements covering OWASP Top 10 and beyond. This section includes three separate web application pentest projects.
+
+## 📋 Projects Covered
+
+| Project | Type | Key Techniques |
+|---------|------|----------------|
+| Car Rental App | Booking platform | SQLi, XSS, Broken Access Control |
+| Facebook Clone | Social network | Authentication flaws, IDOR, CSRF |
+| Hack Me Bank | Banking application | Business logic, Authentication, Session |
 
 ## 🎯 Vulnerabilities Covered
 
@@ -39,7 +46,9 @@ Comprehensive Web Application penetration testing engagement covering OWASP Top 
 
 ## 📂 Files in this folder
 
-- 📄 **ITSafe-Web-App-Report.pdf** — Full Web Application pentest report
+- 📄 **Car-Rental-WebApp-Pentest.pdf** — Pentest report for car rental booking application
+- 📄 **Facebook-Clone-WebApp-Pentest.pdf** — Pentest report for social network clone
+- 📄 **Banking-WebApp-Pentest.pdf** — Pentest report for banking application
 
 ## 🛠️ Tools Used
 
