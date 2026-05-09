@@ -32,3 +32,17 @@ Hi, I'm **Ori Hatuka** — transitioning into offensive security after **7+ year
 ## 📂 Repository Structure
 
 ```
+📦 Penetration-Testing-Portfolio
+│
+├── 📂 HTB-Writeups/                  # HackTheBox & VulnHub machines
+│   ├── 📂 Linux-Privilege-Escalation/
+│   ├── 📂 Windows-Privilege-Escalation/
+│   ├── 📂 Infrastructure/
+│   └── 📂 Web-Application/
+│
+├── 📂 CTF-Challenges/                # Capture The Flag writeups
+│
+└── 📂 Tools/                         # Python tooling for security automation
+```
+
+```
