@@ -10,7 +10,7 @@ Hi, I'm **Ori Hatuka** — a junior penetration tester focused on web applicatio
 
 - 🛡️ **IT Support Technician at Bank Leumi** (via Octaly Integration) — part of the IT support team serving 2,000+ employees; managed Active Directory accounts and permissions and supported the organizational Exchange email.
 - 🔬 **QA Automation & SIT Engineer at Qualitest** (Intel and Avaya projects) — Python test automation and network traffic analysis with Wireshark.
-- 🎓 **ITSafe penetration testing track** — full pentest reports for infrastructure, web application, and Linux/Windows privilege escalation, reviewed and approved by instructors.
+- 🎓 **ITSafe penetration testing track** — full pentest reports for infrastructure, web application, and Linux/Windows privilege escalation, reviewed and approved by instructors; also completed the Active Directory Attacks module.
 
 > **My angle:** I came from building and supporting the same systems I now learn to test.
 
