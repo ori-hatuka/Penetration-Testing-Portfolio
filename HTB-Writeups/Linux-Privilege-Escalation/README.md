@@ -23,7 +23,7 @@ Five Linux machines taken from initial foothold to root, documented in a single 
 
 ## 📂 Files in this folder
 
-- 📄 **ITSafe-Linux-PrivEsc-Report.pdf** — full report covering all 5 machines
+- 📄 [**ITSafe-Linux-PrivEsc-Report.pdf**](ITSafe-Linux-PrivEsc-Report.pdf) — full report covering all 5 machines
 
 ---
 

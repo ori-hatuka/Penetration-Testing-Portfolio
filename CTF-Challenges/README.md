@@ -8,7 +8,7 @@ Capture-the-flag writeups from vulnerable machines.
 
 ## 📂 Files in this folder
 
-- 📄 **Mr-Robot-CTF-Writeup.pdf**
+- 📄 [**Mr-Robot-CTF-Writeup.pdf**](Mr-Robot-CTF-Writeup.pdf)
 
 ---
 

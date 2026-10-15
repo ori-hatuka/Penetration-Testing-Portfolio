@@ -33,7 +33,7 @@ Infrastructure engagement covering 10 machines across Linux and Windows, from in
 
 ## 📂 Files in this folder
 
-- 📄 **ITSafe-Infrastructure-Report.pdf** — full report covering all 10 machines
+- 📄 [**ITSafe-Infrastructure-Report.pdf**](ITSafe-Infrastructure-Report.pdf) — full report covering all 10 machines
 
 ---
 

@@ -22,7 +22,7 @@ Five Windows machines taken from initial foothold to SYSTEM, documented in a sin
 
 ## 📂 Files in this folder
 
-- 📄 **ITSafe-Windows-PrivEsc-Report.pdf** — full report covering all 5 machines
+- 📄 [**ITSafe-Windows-PrivEsc-Report.pdf**](ITSafe-Windows-PrivEsc-Report.pdf) — full report covering all 5 machines
 
 ---
 
