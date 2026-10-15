@@ -1,58 +1,52 @@
-# 🌐 Web Application Pentesting
+# 🌐 Web Application Penetration Testing
 
-Comprehensive Web Application penetration testing engagements covering OWASP Top 10 and beyond. This section includes three separate web application pentest projects.
+Three grey-box web application engagements from the ITSafe track. Each has a full report with vulnerability description, proof-of-concept, and remediation.
 
-## 📋 Projects Covered
+## 📋 Engagements
 
-| Project | Type | Key Techniques |
-|---------|------|----------------|
-| Car Rental App | Booking platform | SQLi, XSS, Broken Access Control |
-| Facebook Clone | Social network | Authentication flaws, IDOR, CSRF |
-| Hack Me Bank | Banking application | Business logic, Authentication, Session |
+### 🚗 Car Rental
+A booking application.
 
-## 🎯 Vulnerabilities Covered
+| Finding | Summary |
+|---------|---------|
+| Parameter Tampering | Enumerated user IDs and modified another user's car order |
+| JWT Authentication Bypass | Found exposed JWT signing keys via directory brute-forcing and forged an administrator token |
+| Cross-Site Request Forgery (CSRF) | State-changing requests without anti-CSRF protection |
+| Cross-Site Scripting (XSS) | Injected script executed in the victim's browser |
 
-### Injection Attacks
-- **SQL Injection** — Error-based, Boolean-based, Time-based, UNION-based
-- **Command Injection** — OS command execution
-- **HTML Injection** — Content manipulation
-- **CSS Injection** — Style manipulation
+### 🏦 Hack Me Bank
+A banking application.
 
-### Cross-Site Scripting (XSS)
-- **Reflected XSS** — Via URL parameters
-- **Stored XSS** — Persistent payloads
-- **DOM-based XSS** — Client-side execution
+| Finding | Summary |
+|---------|---------|
+| SQL Injection | Dumped the database with SQLMap from a captured Burp request |
+| Parameter Tampering → Business Logic | A negative-amount transfer bypassed server-side validation |
+| Remote Code Execution | An exposed `dev.php` endpoint executed OS commands (base64-encoded) |
+| Cross-Site Request Forgery (CSRF) | Forced fund transfers |
+| Cross-Site Scripting (XSS) | Script executed via a crafted file upload (malicious filename) |
 
-### Access Control & Authentication
-- **Broken Access Control** — IDOR, missing authorization
-- **Broken Authentication** — Weak login mechanisms
-- **Session Fixation** — Session hijacking
-- **JWT Attacks** — Token manipulation, algorithm confusion
+### 👥 Facebook Revenge
+A social-network clone.
 
-### Cross-Site & Server-Side Request Forgery
-- **CSRF** — Cross-Site Request Forgery
-- **SSRF** — Server-Side Request Forgery
-- **CORS Misconfigurations** — Origin validation bypass
-
-### File & Path Attacks
-- **LFI** — Local File Inclusion
-- **RFI** — Remote File Inclusion
-- **Path Traversal** — Directory traversal attacks
-
-### Other Web Vulnerabilities
-- **Open Redirect** — URL redirection abuse
-- **Insecure Deserialization** — Object injection
-- **OAuth2 Vulnerabilities** — Implementation flaws
-
-## 📂 Files in this folder
-
-- 📄 **Car-Rental-WebApp-Pentest.pdf** — Pentest report for car rental booking application
-- 📄 **Facebook-Clone-WebApp-Pentest.pdf** — Pentest report for social network clone
-- 📄 **Banking-WebApp-Pentest.pdf** — Pentest report for banking application
+| Finding | Summary |
+|---------|---------|
+| SQL Injection | Dumped the database with SQLMap to recover admin credentials |
+| Parameter Tampering | Manipulated request parameters |
+| Remote Code Execution | Bypassed file-upload validation (changed extension to `.php` in Burp) and planted a web shell |
+| Accessible Admin Panel | Reached the admin console |
+| Business Logic Bypass | Abused flawed application logic |
+| Information Disclosure | Leaked sensitive data |
+| Cross-Site Request Forgery (CSRF) | State-changing requests |
 
 ## 🛠️ Tools Used
 
-`Burp Suite` `OWASP ZAP` `SQLmap` `Nikto` `Gobuster` `Wfuzz` `Chrome DevTools`
+`Burp Suite` `SQLMap` `DirBuster` `jwt.io`
+
+## 📂 Files in this folder
+
+- 📄 **Car-Rental-WebApp-Pentest.pdf**
+- 📄 **Banking-WebApp-Pentest.pdf** — Hack Me Bank
+- 📄 **Facebook-Clone-WebApp-Pentest.pdf** — Facebook Revenge
 
 ---
 
