@@ -1,31 +1,32 @@
 # 🔐 Penetration Testing Portfolio
 
-> Documenting my hands-on journey into offensive security — from network defender to ethical attacker.
+> Documenting my hands-on journey into offensive security.
 
 ---
 
 ## 👋 About Me
 
-Hi, I'm **Ori Hatuka** — transitioning into offensive security after **7+ years of hands-on IT experience**.
+Hi, I'm **Ori Hatuka** — a junior penetration tester focused on web application security, coming from an enterprise IT and QA background.
 
-- 🛡️ **Network Administrator** at Bank Leumi (1.5 years) — managed Active Directory, Exchange, and Cisco infrastructure for **2,000+ users**
-- 🔬 **QA Engineer** at Intel (3.5 years) — built Python automation and analyzed network protocols (DHCP, DNS, TCP/IP)
-- 🎓 **ITSafe Pentest Pro graduate** — full-stack curriculum in Web, Mobile, AD, and Infrastructure pentesting
+- 🛡️ **IT Support Technician at Bank Leumi** (via Octaly Integration) — part of the IT support team serving 2,000+ employees; managed Active Directory accounts and permissions and supported the organizational Exchange email.
+- 🔬 **QA Automation & SIT Engineer at Qualitest** (Intel and Avaya projects) — Python test automation and network traffic analysis with Wireshark.
+- 🎓 **ITSafe penetration testing track** — full pentest reports for infrastructure, web application, and Linux/Windows privilege escalation, reviewed and approved by instructors.
 
-> **My unfair advantage:** I came from building and defending the same systems I now learn to test.
+> **My angle:** I came from building and supporting the same systems I now learn to test.
 
 ---
 
-## 📊 Portfolio Stats
+## 📊 Portfolio at a Glance
 
 | Category | Count |
 |----------|-------|
-| 🐧 Linux Privilege Escalation Machines | 5 |
-| 🪟 Windows Privilege Escalation Machines | 5 |
-| 🏗️ Infrastructure Machines (Linux + Windows) | 10 |
-| 🌐 Web Application Engagements | 5 |
-| 🚩 CTF Challenges | 1 |
-| **Total Documented Engagements** | **20+** |
+| 🐧 Linux Privilege Escalation machines | 5 |
+| 🪟 Windows Privilege Escalation machines | 5 |
+| 🏗️ Infrastructure machines (Linux + Windows) | 10 |
+| 🌐 Web Application engagements | 3 |
+| **Total documented machines** | **20** (17 Hack The Box, 3 VulnHub) |
+
+> Full lab reports (findings, proof-of-concept, and remediation) are in each folder below.
 
 ---
 
@@ -34,15 +35,13 @@ Hi, I'm **Ori Hatuka** — transitioning into offensive security after **7+ year
 ```
 📦 Penetration-Testing-Portfolio
 │
-├── 📂 HTB-Writeups/                  # HackTheBox & VulnHub machines
-│   ├── 📂 Linux-Privilege-Escalation/
-│   ├── 📂 Windows-Privilege-Escalation/
-│   ├── 📂 Infrastructure/
-│   └── 📂 Web-Application/
+├── 📂 HTB-Writeups/
+│   ├── 📂 Linux-Privilege-Escalation/     # 5 machines — one full report
+│   ├── 📂 Windows-Privilege-Escalation/   # 5 machines — one full report
+│   ├── 📂 Infrastructure/                 # 10 machines — one full report
+│   └── 📂 Web-Application/                 # 3 web app engagements — three reports
 │
-├── 📂 CTF-Challenges/                # Capture The Flag writeups
-│
-└── 📂 Tools/                         # Python tooling for security automation
+└── 📂 CTF-Challenges/
 ```
 
-```
+> ℹ️ The ITSafe lab reports are coursework. They are published here with ITSafe's permission.
