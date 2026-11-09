@@ -1,5 +1,4 @@
 # 🌐 Web Application Penetration Testing
-הישג מעשי — בדיקת לוגיקה עסקית: במסגרת מעבדת ITSafe בדקתי את תהליך העברת הכספים וזיהיתי שהעברה בסכום שלילי עוקפת את אימות הקלט בצד השרת. תיעדתי את הממצא בדוח בדיקת החדירה. התרגול חיזק את היכולת שלי לבדוק כללים עסקיים מעבר למסלול השימוש הרגיל.
 
 Three grey-box web application engagements from the ITSafe track. Each has a full report with vulnerability description, proof-of-concept, and remediation.
 
@@ -17,7 +16,7 @@ A booking application.
 
 ### 🏦 Hack Me Bank
 A banking application.
-
+הישג מעשי — בדיקת לוגיקה עסקית: במסגרת מעבדת ITSafe בדקתי את תהליך העברת הכספים וזיהיתי שהעברה בסכום שלילי עוקפת את אימות הקלט בצד השרת. תיעדתי את הממצא בדוח בדיקת החדירה. התרגול חיזק את היכולת שלי לבדוק כללים עסקיים מעבר למסלול השימוש הרגיל.
 | Finding | Summary |
 |---------|---------|
 | SQL Injection | Dumped the database with SQLMap from a captured Burp request |
