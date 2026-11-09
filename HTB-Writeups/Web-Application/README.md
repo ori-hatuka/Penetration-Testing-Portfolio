@@ -1,4 +1,5 @@
 # 🌐 Web Application Penetration Testing
+הישג מעשי — בדיקת לוגיקה עסקית: במסגרת מעבדת ITSafe בדקתי את תהליך העברת הכספים וזיהיתי שהעברה בסכום שלילי עוקפת את אימות הקלט בצד השרת. תיעדתי את הממצא בדוח בדיקת החדירה. התרגול חיזק את היכולת שלי לבדוק כללים עסקיים מעבר למסלול השימוש הרגיל.
 
 Three grey-box web application engagements from the ITSafe track. Each has a full report with vulnerability description, proof-of-concept, and remediation.
 
